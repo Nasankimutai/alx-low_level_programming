@@ -1,19 +1,22 @@
 #include <stdio.h>
 
-/*main is the entry point
- *return is always zero for success
+/**
+ * main - Entry point
+ *
+ *
+ * Return: Always 0 (Sucess)
  */
+
 int main(void)
 {
-	char b;
+	char c;
 
-	for (b = 'a'; b <= 'z'; b++)
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
-		putchar(b);
+		putchar(c);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
-
 
 	
